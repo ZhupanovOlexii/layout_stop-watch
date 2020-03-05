@@ -3,16 +3,17 @@ body {
 
 .clock {
   position: relative;
-  height: 700px;
-  width: 700px;
+  height: 800px;
+  width: 800px;
+  margin-bottom: 50px;
   border: 3px solid black;
   margin-left: 300px; }
 
 .clock:after {
   content: "";
   position: absolute;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   top: 50%;
   left: 50%;
   background-color: red;
@@ -21,9 +22,9 @@ body {
 .clock__minutes {
   position: absolute;
   width: 10px;
-  height: 210px;
-  top: 170px;
-  left: 365px;
+  height: 235px;
+  top: 22%;
+  left: 51%;
   background-color: blue;
   border-radius: 8px;
   transform: rotate 360deg;
@@ -34,9 +35,9 @@ body {
 .clock__second {
   position: absolute;
   width: 10px;
-  height: 310px;
-  top: 64px;
-  left: 365px;
+  height: 360px;
+  top: 7%;
+  left: 51%;
   background-color: red;
   border-radius: 8px;
   -webkit-animation: clock 60s linear infinite;
